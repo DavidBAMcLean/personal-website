@@ -1,0 +1,156 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    font-family: 'Lato', sans-serif;
+}
+
+body{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: auto;
+    grid-template-areas: "header header header" "nav nav nav" "main main main" "footer footer footer";
+    font-size: 1em;
+}
+
+header{
+    grid-area: header;
+    background-color: black;
+    color: white;
+}
+
+nav{
+    grid-area: nav;
+    background-color: black;
+    font-size: 1.5em;
+}
+
+main{
+    grid-area: main;
+    padding: 1em;
+    color: black;
+    background-color: #fff6d5ff;
+}
+
+footer{
+    grid-area: footer;
+    text-align: center;
+    background-color: black;
+    font-size: 2em;
+}
+
+.flex{
+    display: flex;
+}
+
+.column{
+    flex-direction: column;
+    justify-content: center;
+    align-content: center;
+    text-align: center;
+    justify-items: center;
+}
+
+.row{
+    flex-direction: row;
+    justify-content: center;
+}
+
+ul{
+    list-style: none;
+}
+
+a{
+    text-decoration: none;
+}
+
+a:hover{
+    text-transform: uppercase;
+    color: rgba(255, 246, 213, 0.753);
+}
+
+li a{
+    color: #fff6d5ff;
+}
+
+ul li{
+    margin: 0.5em;
+}
+
+.footerList{
+    justify-content: center;
+}
+
+.title{
+    padding: 2.5em;
+    text-decoration: underline;
+    font-family: 'Roboto', sans-serif;
+}
+
+h5, h3, h4{
+    text-decoration: underline;
+    margin: 0.5em;
+}
+
+.nav{
+    float: right;
+}
+
+h1{
+    font-size: 1em;
+    text-transform: uppercase;
+    font-family: 'Kaushan Script', cursive;
+    padding: 1em;
+    color: #fff6d5ff;
+}
+
+
+h5{
+    font-size: 1em;
+}
+
+.helloThere img{
+    width: 100%;
+}
+
+input, textarea, button{
+    padding: 0.45em;
+    background-color: rgb(252, 248, 248);
+    margin: 0.5em;
+}
+
+.spotify{
+    margin: 1em;
+}
+
+.logo{
+    padding: 0.5em;
+}
+
+p{
+    font-size: 1em;
+}
+
+@media only screen and (min-width: 500px) {
+    h1{
+        font-size: 2em;
+    }
+
+    .helloThere img{
+        max-width: 1200px;
+        height: auto;
+    }
+
+    .spotify{
+        width: 150px;
+        height: 75px;
+    }
+
+    .input{
+        width: 50%;
+    }
+
+    ul li{
+        padding: 0 1em 0 1em;
+    }
+  }
