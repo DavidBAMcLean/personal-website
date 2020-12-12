@@ -130,7 +130,7 @@ input, textarea, button{
     padding: 0.45em;
     background-color: rgb(252, 248, 248);
     margin: 0.5em;
-    width: 50%
+    width: 50%;
 }
 
 @media only screen and (min-width: 500px) {
@@ -153,7 +153,7 @@ input, textarea, button{
     }
     
     button{
-        max-width: 100px;
+        width: 20%;
     }
     
   }
