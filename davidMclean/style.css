@@ -126,12 +126,11 @@ p{
     font-size: 1em;
 }
 
-form button{
-    max-width: 50px;
-    justify-content: centre;
-    padding-left="50%"
+input, textarea, button{
+    padding: 0.45em;
+    background-color: rgb(252, 248, 248);
+    margin: 0.5em;
 }
-       
 
 @media only screen and (min-width: 500px) {
     h1{
