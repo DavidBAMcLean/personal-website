@@ -126,8 +126,9 @@ p{
     font-size: 1em;
 }
 
-button{
+form button{
     max-width: 50px
+    justify-content: centre;
 }
        
 
