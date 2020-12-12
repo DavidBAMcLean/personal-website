@@ -126,6 +126,11 @@ p{
     font-size: 1em;
 }
 
+button{
+    max-width: 50px
+}
+       
+
 @media only screen and (min-width: 500px) {
     h1{
         font-size: 2em;
