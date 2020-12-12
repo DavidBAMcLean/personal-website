@@ -133,6 +133,14 @@ input, textarea, button{
     width: 50%;
 }
 
+.btn{
+    color: black;
+}
+
+.btn:hover{
+    color: lightgray;
+}
+
 @media only screen and (min-width: 500px) {
     h1{
         font-size: 2em;
