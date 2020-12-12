@@ -129,6 +129,7 @@ p{
 form button{
     max-width: 50px;
     justify-content: centre;
+    padding-left="50%"
 }
        
 
