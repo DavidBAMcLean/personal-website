@@ -145,6 +145,10 @@ main ul li a{
     color: black;
 }
 
+main ul li a:hover {
+    color: darkgray;
+}
+
 @media only screen and (min-width: 500px) {
     h1{
         font-size: 2em;
