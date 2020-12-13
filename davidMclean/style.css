@@ -109,9 +109,10 @@ h5{
     font-size: 1em;
 }
 
-.helloThere{
+.helloThere h1{
     background-color: black;
     font-family: 'Montserrat', sans-serif;
+    font-size: 2em;
 }
 
 
@@ -155,7 +156,7 @@ main ul li a:hover {
         font-size: 2em;
     }
 
-    .helloThere img{
+    .helloThere {
         max-width: 1200px;
         height: auto;
     }
