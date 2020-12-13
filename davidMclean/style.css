@@ -173,8 +173,4 @@ main ul li a:hover {
     button{
         width: 20%;
     }
-    
-    .column{
-        flex-direction:row;
-    }
   }
