@@ -141,6 +141,10 @@ input, textarea, button{
     color: lightgray;
 }
 
+main ul li a{
+    color: black;
+}
+
 @media only screen and (min-width: 500px) {
     h1{
         font-size: 2em;
