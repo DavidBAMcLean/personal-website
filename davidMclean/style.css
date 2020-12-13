@@ -156,8 +156,8 @@ main ul li a:hover {
         font-size: 2em;
     }
 
-    .helloThere {
-        max-width: 1200px;
+    .helloThere{
+        width: 1200px;
         height: auto;
     }
 
@@ -174,4 +174,7 @@ main ul li a:hover {
         width: 20%;
     }
     
+    .column{
+        flex-direction:row;
+    }
   }
