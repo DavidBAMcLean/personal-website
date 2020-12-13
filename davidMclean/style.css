@@ -109,8 +109,9 @@ h5{
     font-size: 1em;
 }
 
-.helloThere img{
-    width: 100%;
+.helloThere{
+    background-color: black;
+    font-family: 'Montserrat', sans-serif;
 }
 
 
